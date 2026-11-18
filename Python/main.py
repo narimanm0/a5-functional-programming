@@ -7,7 +7,7 @@ for i in range(1, n+1):
 
 while len(lst) > 1:
     # round 1
-    lst = [i for i in lst if i % 2 == 0]
+    lst = lst[::2]
     if len(lst) <= 1: break
 
     # round 2
@@ -19,4 +19,4 @@ while len(lst) > 1:
     if len(lst) <= 1: break
 
 
-print(lst)
+print(*lst)
