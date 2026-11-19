@@ -15,8 +15,13 @@ while len(lst) > 1:
     if len(lst) <= 1: break
 
     # round 3
-    lst = lst[4::3]
-    if len(lst) <= 1: break
+    lst1 = [] # will store numbers that divided by 3
+    tmp=0
+
+    for i in lst:
+        if tmp % 3 != 0:
+            lst1.append(i)
+        tmp += 1
 
     lst = lst1
 
