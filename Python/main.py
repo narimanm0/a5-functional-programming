@@ -11,7 +11,7 @@ while len(lst) > 1:
     if len(lst) <= 1: break
 
     # round 2
-    lst = [i for i in lst if i % 2 != 0]
+    lst = lst[1::2]
     if len(lst) <= 1: break
 
     # round 3
