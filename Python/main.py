@@ -15,8 +15,10 @@ while len(lst) > 1:
     if len(lst) <= 1: break
 
     # round 3
-    lst = [i for i in lst if i % 3 == 0]
+    lst = lst[::3]
     if len(lst) <= 1: break
+
+    lst = lst1
 
 
 print(*lst)
