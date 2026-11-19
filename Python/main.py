@@ -15,7 +15,7 @@ while len(lst) > 1:
     if len(lst) <= 1: break
 
     # round 3
-    lst = lst[::3]
+    lst = lst[4::3]
     if len(lst) <= 1: break
 
     lst = lst1
