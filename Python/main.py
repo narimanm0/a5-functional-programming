@@ -16,7 +16,7 @@ while len(lst) > 1:
 
     # round 3
     lst1 = [] # will store numbers that divided by 3
-    tmp=0
+    tmp=1
 
     for i in lst:
         if tmp % 3 != 0:
