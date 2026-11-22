@@ -1,6 +1,7 @@
 main = do
-    n <- readLn :: IO Int
-
+    input <- getLine
+    
+    let n = read input::Int
     let lst = [1..n]
 
     let lst1 = [x | (tmp, x) <- zip [1..] lst, tmp `mod` 2 /= 0]
