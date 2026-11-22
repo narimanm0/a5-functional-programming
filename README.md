@@ -14,7 +14,7 @@ After each operation, I check whether 1 element remains or not.
 
 ### Haskell
 
-I followed same idea using Haskell lists and list comprehensions. I used `zip [1..]` to keep track of elements positions and filter elements according to each operation. 
+I followed same idea using Haskell lists and list comprehensions. I used `zip []` to keep track of elements positions and filter elements according to each operation. 
 Since Haskell doesn't use a traditional `while` loop, I used a recursive `loop` inside `main` to repeat process until 1 element remains.
 
 ## Results
